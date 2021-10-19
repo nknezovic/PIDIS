@@ -1,0 +1,5 @@
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\bin\Debug\net5.0\publish\BasicStructures.exe
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\bin\Debug\net5.0\publish\BasicStructures.dll
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\bin\Debug\net5.0\publish\BasicStructures.deps.json
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\bin\Debug\net5.0\publish\BasicStructures.runtimeconfig.json
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\bin\Debug\net5.0\publish\BasicStructures.pdb

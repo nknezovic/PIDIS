@@ -1,0 +1,16 @@
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\bin\Debug\net5.0\BasicStructures.exe
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\bin\Debug\net5.0\BasicStructures.deps.json
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\bin\Debug\net5.0\BasicStructures.runtimeconfig.json
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\bin\Debug\net5.0\BasicStructures.runtimeconfig.dev.json
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\bin\Debug\net5.0\BasicStructures.dll
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\bin\Debug\net5.0\ref\BasicStructures.dll
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\bin\Debug\net5.0\BasicStructures.pdb
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\obj\Debug\net5.0\BasicStructures.csproj.AssemblyReference.cache
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\obj\Debug\net5.0\BasicStructures.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\obj\Debug\net5.0\BasicStructures.AssemblyInfoInputs.cache
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\obj\Debug\net5.0\BasicStructures.AssemblyInfo.cs
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\obj\Debug\net5.0\BasicStructures.csproj.CoreCompileInputs.cache
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\obj\Debug\net5.0\BasicStructures.dll
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\obj\Debug\net5.0\ref\BasicStructures.dll
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\obj\Debug\net5.0\BasicStructures.pdb
+D:\Projects\PIDIS\EssentialProgramming\BasicStructures\obj\Debug\net5.0\BasicStructures.genruntimeconfig.cache
