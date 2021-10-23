@@ -1,1 +1,1 @@
-# PIDIS
+Laboratorijske vježbe iz Programskog inženjerstva i Distribuiranih informacijskih sustava
