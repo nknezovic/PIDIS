@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TxtToXmlParser.Parser/1.0.0": {
+        "dependencies": {
+          "TxtToXmlParser.Model": "1.0.0"
+        },
+        "runtime": {
+          "TxtToXmlParser.Parser.dll": {}
+        }
+      },
+      "TxtToXmlParser.Model/1.0.0": {
+        "runtime": {
+          "TxtToXmlParser.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TxtToXmlParser.Parser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TxtToXmlParser.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

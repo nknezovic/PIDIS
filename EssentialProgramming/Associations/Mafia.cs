@@ -1,0 +1,7 @@
+namespace Associations
+{
+    class Mafia
+    {
+        
+    }
+}
