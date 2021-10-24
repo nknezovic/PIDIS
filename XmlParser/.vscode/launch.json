@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/TxtToXmlParser.Parser/bin/Debug/net5.0/TxtToXmlParser.Parser.dll",
+            "args": ["D:/Projects/PIDIS/XmlParser/test.txt", "D:/Projects/PIDIS/XmlParser/test.xml"],
+            "cwd": "${workspaceFolder}/TxtToXmlParser.Parser",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

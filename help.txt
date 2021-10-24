@@ -1,0 +1,30 @@
+dotnet run --project path
+dotnet publish - napravit exe
+
+dotnet new sln --name essential
+dotnet new console --name basic
+dotnet sln add "path od console"
+dotnet build
+
+dotnet new classlib --name TxtToXmlParser.Model
+- za drzat fileove za drugi projekt
+
+dotnet add reference ../TxtToXmlParser.Model\TxtToXmlParser.Model.csproj
+- za dodat referencu
+
+ctor za napravit konstruktor
+prop za napravit propery
+
+try catch blok s finally - on ce se uvik izvrsit - za clearanje resurasa
+
+ponovi virtualne metode?
+
+control + tocka za napravit mapirani konstruktor
+
+control shift P restar omnisharp
+
+napisat par fileova pa isprobat
+
+napravit json serializer
+sta ako omogucimo da moze poslat jos jedan argument?
+interface

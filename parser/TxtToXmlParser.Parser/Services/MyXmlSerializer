@@ -1,5 +1,0 @@
-public class MyXmlSerializer : ISerializer
-{
-    i ovdje napisem implementaciju za xml MyXmlSerializer
-    
-}

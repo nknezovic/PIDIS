@@ -1,0 +1,12 @@
+D:\Projects\PIDIS\XmlParser\TxtToXmlParser.Model\bin\Debug\net5.0\TxtToXmlParser.Model.deps.json
+D:\Projects\PIDIS\XmlParser\TxtToXmlParser.Model\bin\Debug\net5.0\TxtToXmlParser.Model.dll
+D:\Projects\PIDIS\XmlParser\TxtToXmlParser.Model\bin\Debug\net5.0\ref\TxtToXmlParser.Model.dll
+D:\Projects\PIDIS\XmlParser\TxtToXmlParser.Model\bin\Debug\net5.0\TxtToXmlParser.Model.pdb
+D:\Projects\PIDIS\XmlParser\TxtToXmlParser.Model\obj\Debug\net5.0\TxtToXmlParser.Model.csproj.AssemblyReference.cache
+D:\Projects\PIDIS\XmlParser\TxtToXmlParser.Model\obj\Debug\net5.0\TxtToXmlParser.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PIDIS\XmlParser\TxtToXmlParser.Model\obj\Debug\net5.0\TxtToXmlParser.Model.AssemblyInfoInputs.cache
+D:\Projects\PIDIS\XmlParser\TxtToXmlParser.Model\obj\Debug\net5.0\TxtToXmlParser.Model.AssemblyInfo.cs
+D:\Projects\PIDIS\XmlParser\TxtToXmlParser.Model\obj\Debug\net5.0\TxtToXmlParser.Model.csproj.CoreCompileInputs.cache
+D:\Projects\PIDIS\XmlParser\TxtToXmlParser.Model\obj\Debug\net5.0\TxtToXmlParser.Model.dll
+D:\Projects\PIDIS\XmlParser\TxtToXmlParser.Model\obj\Debug\net5.0\ref\TxtToXmlParser.Model.dll
+D:\Projects\PIDIS\XmlParser\TxtToXmlParser.Model\obj\Debug\net5.0\TxtToXmlParser.Model.pdb

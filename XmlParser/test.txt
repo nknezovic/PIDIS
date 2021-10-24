@@ -1,0 +1,3 @@
+Type;OIB;Name;Gender;DateOfBirth;AvgGrade;Paycheck
+Student;001212;Iva Ivić;Female;1998/02/02;4.3;
+Professor;001213;Ivan Zoraja;Male;1961/01/01;;100.00
