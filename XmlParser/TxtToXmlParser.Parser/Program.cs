@@ -13,8 +13,11 @@ namespace TxtToXmlParser.Parser
         static void Main(string[] args)
         {
             var (txtFilePath, xmlFilePath) = ParseArguments(args);
+
             var service = new TxtParserService();
             var persons = service.ParseTxtFile(txtFilePath);
+
+            //var persons1 = TxtParserService.ParseTxtFile(txtFilePath);  --> kad bi mi funckija bila static
 
             var serializer = new XmlSerializer(typeof(List<Person>));
 
@@ -22,34 +25,12 @@ namespace TxtToXmlParser.Parser
 
             serializer.Serialize(xmlFileStream, persons.ToList());
 
-            /* foreach(var person in persons) 
-            {
-                serializer.Serialize(xmlFileStream, persons.ToList());
-            } */
-
-            /* using (var sequenceEnum = persons.GetEnumerator())
-            {
-                while( sequenceEnum.MoveNext())
-                {
-                    serializer.Serialize(xmlFileStream, persons.ToList());
-                }
-            } */
-            //C# xml serializer pogledat na googleu
-           
-            
-
-            /*var xmlFileStream = new FileStream(xmlFilePath, FileMode.Create);
-            
-            foreach (var person in persons)
+            /* foreach (var person in persons)
             {
                 Console.WriteLine(person.OIB);
                 Console.WriteLine(person.Name);
                 Console.WriteLine(person.DateOfBirth);
-            }
-            
-
-            serializer.Serialize(xmlFileStream, persons.ToList());*/
-            
+            } */            
         }
 
         private static (string txtFilePath, string xmlFilePath) ParseArguments(string[] args){ /*ovdje ubacit serializer type*/

@@ -13,6 +13,7 @@ namespace TxtToXmlParser.Parser.Services
         {
             //IEnumerable<int> x = new int[10];  IEnumerable je kolekcija, apstrahiramo listu
             var fileInfo = new FileInfo(filename);
+
             if(!fileInfo.Exists)
             {
                 //jedan ili drugi nacin
@@ -26,7 +27,7 @@ namespace TxtToXmlParser.Parser.Services
             var linesWithoutFirstLine = lines.Skip(1).ToArray();
             //Linq za manipuliranje kolekcijama
 
-            List<Person> persons = new List<Person>();
+            var persons = new List<Person>();
 
             foreach(var line in linesWithoutFirstLine)
             {
@@ -50,7 +51,7 @@ namespace TxtToXmlParser.Parser.Services
                 return null;
             }
 
-            Console.WriteLine(columnsData.Length);
+            //Console.WriteLine(columnsData.Length);
 
             var type = columnsData[0];
             Person person = type switch{

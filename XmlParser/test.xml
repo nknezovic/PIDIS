@@ -1,5 +1,17 @@
 <?xml version="1.0"?>
 <ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Person xsi:type="Student" />
-  <Person xsi:type="Professor" />
+  <Person xsi:type="Student">
+    <OIB>001212</OIB>
+    <Name>Iva Ivić</Name>
+    <Gender>Female</Gender>
+    <DateOfBirth>1998-02-02T00:00:00</DateOfBirth>
+    <AvgGrade>43</AvgGrade>
+  </Person>
+  <Person xsi:type="Professor">
+    <OIB>001213</OIB>
+    <Name>Ivan Zoraja</Name>
+    <Gender>Male</Gender>
+    <DateOfBirth>1961-01-01T00:00:00</DateOfBirth>
+    <Paycheck>10000</Paycheck>
+  </Person>
 </ArrayOfPerson>

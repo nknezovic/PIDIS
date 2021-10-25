@@ -8,7 +8,7 @@ namespace TxtToXmlParser.Model.Models
     [XmlInclude(typeof(Professor))]
     public abstract class Person
     {
-        protected Person(string oIB, string name, Gender gender, DateTime dateOfBirth)
+        public Person(string oIB, string name, Gender gender, DateTime dateOfBirth)
         {
             OIB = oIB;
             Name = name;
@@ -19,12 +19,12 @@ namespace TxtToXmlParser.Model.Models
         protected Person()
         {}
 
-        public string OIB { get; }
+        public string OIB { get; set; }
 
-        public string Name { get; } 
+        public string Name { get; set; } 
         
-        public Gender Gender { get; }
+        public Gender Gender { get; set; }
 
-        public DateTime DateOfBirth { get; }
+        public DateTime DateOfBirth { get; set; }
     }
 }

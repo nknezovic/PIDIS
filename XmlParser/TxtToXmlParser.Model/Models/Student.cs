@@ -11,9 +11,9 @@ namespace TxtToXmlParser.Model.Models
             this.AvgGrade = avgGrade;            
         }
 
-        private Student()
+        public Student()
         {  
         }
-        public float AvgGrade { get; }
+        public float AvgGrade { get; set; }
     }
 }

@@ -10,9 +10,9 @@ namespace TxtToXmlParser.Model.Models
             Paycheck = paycheck;
         }
 
-        private Professor()
+        public Professor()
         {  
         }
-        public decimal Paycheck { get; } 
+        public decimal Paycheck { get; set; } 
     }
 }
