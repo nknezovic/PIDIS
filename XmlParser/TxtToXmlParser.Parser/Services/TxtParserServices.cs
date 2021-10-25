@@ -16,8 +16,6 @@ namespace TxtToXmlParser.Parser.Services
 
             if(!fileInfo.Exists)
             {
-                //jedan ili drugi nacin
-                //return new List<Person>();
                 throw new FileNotFoundException($"File with path: {filename} does not exist");
             }
 

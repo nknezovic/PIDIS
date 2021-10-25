@@ -12,28 +12,30 @@ namespace TxtToXmlParser.Parser
     {
         static void Main(string[] args)
         {
-            var (txtFilePath, xmlFilePath) = ParseArguments(args);
+            var (txtFilePath, newFilePath) = ParseArguments(args);
 
             var service = new TxtParserService();
             var persons = service.ParseTxtFile(txtFilePath);
 
             //var persons1 = TxtParserService.ParseTxtFile(txtFilePath);  --> kad bi mi funckija bila static
 
-            var serializer = new XmlSerializer(typeof(List<Person>));
-
-            var xmlFileStream = new FileStream(xmlFilePath, FileMode.Create);
-
-            serializer.Serialize(xmlFileStream, persons.ToList());
-
-            /* foreach (var person in persons)
+            if(newFilePath.EndsWith("xml"))
             {
-                Console.WriteLine(person.OIB);
-                Console.WriteLine(person.Name);
-                Console.WriteLine(person.DateOfBirth);
-            } */            
+                var serializer = new MyXmlSerializer();
+                serializer.Serialize(newFilePath, persons);
+            }
+            else if(newFilePath.EndsWith("json"))
+            {
+                var serializer = new MyJsonSerializer();
+                serializer.Serialize(newFilePath, persons);
+            }
+            else{
+                throw new NotImplementedException();
+            }
+        
         }
 
-        private static (string txtFilePath, string xmlFilePath) ParseArguments(string[] args){ /*ovdje ubacit serializer type*/
+        private static (string txtFilePath, string newFilePath) ParseArguments(string[] args){ /*ovdje ubacit serializer type*/
             if(args.Length != 2){
                 throw new System.Exception("Number of arguments is invalid. Must be 2");
             }
@@ -48,16 +50,16 @@ namespace TxtToXmlParser.Parser
                 throw new FileNotFoundException($"File with path: {txtFile} does not exist");
             }
 
-            var xmlFile = args[1];
+            var newFile = args[1];
 
-            var xmlFileDirectory = Path.GetDirectoryName(xmlFile);
-            var directoryInfo = new DirectoryInfo(xmlFileDirectory);
+            var newFileDirectory = Path.GetDirectoryName(newFile);
+            var directoryInfo = new DirectoryInfo(newFileDirectory);
 
             if(!directoryInfo.Exists){
-                throw new FileNotFoundException($"File with path: {xmlFile} does not exist");
+                throw new FileNotFoundException($"File with path: {newFile} does not exist");
             }
 
-            return (txtFile, xmlFile);
+            return (txtFile, newFile);
         }
     }
 }
